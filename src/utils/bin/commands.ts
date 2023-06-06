@@ -24,17 +24,6 @@ export const repo = async (args: string[]): Promise<string> => {
   return 'Opening Github repository...';
 };
 
-// About
-export const about = async (args: string[]): Promise<string> => {
-  return `Hi, I'm ${config.name}. 
-Welcome to my personal website!
-More about me:
-'sumfetch' - short summary.
-'resume' - my latest resume.
-'projects' - my github projects.
-'linkedin' - my linkedin profile.`;
-};
-
 export const resume = async (args: string[]): Promise<string> => {
   window.open(`${config.resume_url}`);
   return 'Opening resume...';
@@ -58,6 +47,12 @@ export const linkedin = async (args: string[]): Promise<string> => {
   return 'Opening linkedin...';
 };
 
+export const youtube = async (args: string[]): Promise<string> => {
+  window.open(`https://www.youtube.com/in/${config.social.youtube}/`);
+
+  return 'Opening my youtube channel...';
+};
+
 // Search
 export const google = async (args: string[]): Promise<string> => {
   window.open(`https://google.com/search?q=${args.join(' ')}`);
@@ -66,11 +61,6 @@ export const google = async (args: string[]): Promise<string> => {
 
 export const bing = async (args: string[]): Promise<string> => {
   return `Who uses bing anymore?`;
-};
-
-export const reddit = async (args: string[]): Promise<string> => {
-  window.open(`https://www.reddit.com/search/?q=${args.join(' ')}`);
-  return `Searching reddit for ${args.join(' ')}...`;
 };
 
 // Typical linux commands
