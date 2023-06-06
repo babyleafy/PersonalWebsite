@@ -4,8 +4,36 @@ import { getProjects } from '../api';
 import { getQuote } from '../api';
 import { getWeather } from '../api';
 
-export const myprojects = async (args: string[]): Promise<string> => {
+export const projects = async (args: string[]): Promise<string> => {
   const projects = await getProjects();
+  const soccerDBRepo = {
+    name: 'SoccerDB',
+    html_url: 'https://github.com/tonyjongyoonan/soccerdb',
+  };
+  const froufrousRepo = {
+    name: 'FrouFrous',
+    html_url: 'https://floating-everglades-18018.herokuapp.com/',
+  };
+  projects.push(soccerDBRepo);
+  projects.push(froufrousRepo);
+
+  const order = [
+    'FrouFrous',
+    'SoccerDB',
+    'PersonalWebsite',
+    'Chirp',
+    'TwitchAutoPredictions',
+    'ValorantAgentRecommender',
+    'Checkers',
+    'challenge-react',
+  ];
+
+  projects.sort((a, b) => {
+    const indexA = order.indexOf(a.name);
+    const indexB = order.indexOf(b.name);
+    return indexA - indexB;
+  });
+
   return projects
     .map(
       (repo) =>
