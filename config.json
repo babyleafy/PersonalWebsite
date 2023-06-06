@@ -1,16 +1,16 @@
 {
-  "readmeUrl": "https://raw.githubusercontent.com/cveinnt/cveinnt/master/README.md",
-  "title": "LiveTerm",
-  "name": "John Doe",
+  "readmeUrl": "https://raw.githubusercontent.com/babyleafy/PersonalWebsite/main/README.md",
+  "title": "Erik Wei",
+  "name": "Erik Wei",
   "ascii": "liveterm",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "babyleafy",
+    "linkedin": "erik-wei-66b436202"
   },
-  "email": "contact@email.com",
-  "ps1_hostname": "liveterm",
+  "email": "erikwei@seas.upenn.edu",
+  "ps1_hostname": "erikwei",
   "ps1_username": "visitor",
-  "repo": "https://github.com/Cveinnt/LiveTerm",
+  "repo": "https://github.com/babyleafy/PersonalWebsite",
   "resume_url": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Resume.pdf",
   "donate_urls": {
     "paypal": "https://paypal.me/cveinnt",
@@ -27,7 +27,7 @@
       "red": "#CA2124"
     },
     "dark": {
-      "background": "#2E3440",
+      "background": "#18181a",
       "foreground": "#E5E9F0",
       "yellow": "#5E81AC",
       "green": "#A3BE8C",
