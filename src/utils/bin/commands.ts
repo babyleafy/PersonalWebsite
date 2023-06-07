@@ -14,7 +14,7 @@ export const help = async (args: string[]): Promise<string> => {
 \n${c}\n
 [tab]: trigger completion.
 [ctrl+l]/clear: clear terminal.\n
-Type 'sumfetch' to display summary.
+Type 'about' to display a summary about me.
 `;
 };
 
@@ -48,7 +48,7 @@ export const linkedin = async (args: string[]): Promise<string> => {
 };
 
 export const youtube = async (args: string[]): Promise<string> => {
-  window.open(`https://www.youtube.com/in/${config.social.youtube}/`);
+  window.open(`https://www.youtube.com/${config.social.youtube}/`);
 
   return 'Opening my youtube channel...';
 };
@@ -90,7 +90,7 @@ export const banner = (args?: string[]): string => {
   ░░░░░     ░░░░░ ░░░ ░░░░░    ░░░░░░░░░░ ░░░░░     ░░░░░ ░░░░ ░░░░░ ░░ 
                                                                                                                 
 Type 'help' to see the list of available commands.
-Type 'sumfetch' to display summary.
+Type 'about' to display a summary about me.
 Type 'repo' or click <u><a class="text-light-blue dark:text-dark-blue underline" href="${config.repo}" target="_blank">here</a></u> for the Github repository.
 `;
 };
