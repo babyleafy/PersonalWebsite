@@ -6,15 +6,10 @@ import { getWeather } from '../api';
 
 export const projects = async (args: string[]): Promise<string> => {
   const projects = await getProjects();
-  const soccerDBRepo = {
-    name: 'SoccerDB',
-    html_url: 'https://github.com/tonyjongyoonan/soccerdb',
-  };
   const froufrousRepo = {
     name: 'FrouFrous',
     html_url: 'https://floating-everglades-18018.herokuapp.com/',
   };
-  projects.push(soccerDBRepo);
   projects.push(froufrousRepo);
 
   const order = [
@@ -22,6 +17,7 @@ export const projects = async (args: string[]): Promise<string> => {
     'SoccerDB',
     'PersonalWebsite',
     'Chirp',
+    'WeatherApp',
     'TwitchAutoPredictions',
     'ValorantAgentRecommender',
     'Checkers',
