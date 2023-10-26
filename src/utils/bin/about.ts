@@ -9,7 +9,7 @@ const about = async (args: string[]): Promise<string> => {
    ▓▓     ▓▓▓    ▐▓▓    ▐▓▓     ▓▓          爵 <u><a href="${config.repo}" target="_blank">Github repo</a></u>
 ▐▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓       爵 I'm a junior at the University of Pennsylvania studying Computer Science.
 ▐▓                                 ▐▓         I enjoy creating beautiful software that is both functional and intuitive,  
-▐▓        > E R I K   W E I        ▐▓         and am currently a SWE intern at Crane NXT. Outside of CS, I like playing tennis,
+▐▓        > E R I K   W E I        ▐▓         and am an incoming SWE intern at Draftkings. Outside of CS, I like playing tennis,
 ▐▓                                 ▐▓         remixing music (try the 'youtube' command!), and watching great TV shows.
 ▐▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓       ----------- 
    ▓▓      ▐▓▓    ▓▓    ▐▓▓     ▓▓           CONTACT 
