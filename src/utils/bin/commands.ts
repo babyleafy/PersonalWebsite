@@ -24,12 +24,11 @@ export const repo = async (args: string[]): Promise<string> => {
   return 'Opening Github repository...';
 };
 
-/*
+// Resume
 export const resume = async (args: string[]): Promise<string> => {
   window.open(`${config.resume_url}`);
   return 'Opening resume...';
 };
-*/
 
 // Contact
 export const email = async (args: string[]): Promise<string> => {
