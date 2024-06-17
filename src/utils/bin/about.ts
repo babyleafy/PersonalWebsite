@@ -7,10 +7,10 @@ const about = async (args: string[]): Promise<string> => {
       ▓▓▀  ▄▓▀   ▐▓▓  ▀▓▓    ▓▓▄             ${config.name}
     ▄▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓            <u><a href="${config.resume_url}" target="_blank">resume</a></u>
    ▓▓     ▓▓▓    ▐▓▓    ▐▓▓     ▓▓          爵 <u><a href="${config.repo}" target="_blank">Github repo</a></u>
-▐▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓       爵 I'm a junior at the University of Pennsylvania studying Computer Science.
-▐▓                                 ▐▓         I enjoy creating beautiful software that is both functional and intuitive,  
-▐▓        > E R I K   W E I        ▐▓         and am an incoming SWE intern at Draftkings. Outside of CS, I like playing tennis,
-▐▓                                 ▐▓         remixing music (try the 'youtube' command!), and watching great TV shows.
+▐▓▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▓       爵 I'm a rising senior at the University of Pennsylvania studying Computer Science,
+▐▓                                 ▐▓         and am currently a software engineer intern at Coinbase. I enjoy exploring new  
+▐▓        > E R I K   W E I        ▐▓         frameworks to create beautiful and functional software. Outside of CS, I like playing
+▐▓                                 ▐▓          tennis, remixing music (try the 'youtube' command!), and watching great TV shows.
 ▐▓▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▓       ----------- 
    ▓▓      ▐▓▓    ▓▓    ▐▓▓     ▓▓           CONTACT 
     ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓            <u><a href="mailto:${config.email}" target="_blank">${config.email}</a></u>

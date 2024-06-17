@@ -7,19 +7,25 @@ import { getWeather } from '../api';
 export const projects = async (args: string[]): Promise<string> => {
   const projects = await getProjects();
   const froufrousRepo = {
-    name: 'FrouFrous',
-    html_url: 'https://floating-everglades-18018.herokuapp.com/',
+    name: 'FrouFrous Social Media App',
+    html_url: 'https://froufrous-72709a676ac7.herokuapp.com/',
   };
+  const dpRepo = {
+    name: 'Daily Pennsylvanian Mobile',
+    html_url: 'https://github.com/dailypenn/canada-goose'
+  }
   projects.push(froufrousRepo);
+  projects.push(dpRepo);
 
   const order = [
-    'FrouFrous',
+    'Daily Pennsylvanian Mobile',
+    'FrouFrous Social Media App',
     'SoccerDB',
     'PersonalWebsite',
     'Chirp',
-    'WeatherApp',
     'TwitchAutoPredictions',
     'ValorantAgentRecommender',
+    'WeatherApp',
     'Checkers',
     'challenge-react',
   ];
