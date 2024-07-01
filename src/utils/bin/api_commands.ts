@@ -22,11 +22,12 @@ export const projects = async (args: string[]): Promise<string> => {
     'FrouFrous Social Media App',
     'SoccerDB',
     'PersonalWebsite',
+    'CargoDrop',
     'Chirp',
     'TwitchAutoPredictions',
     'ValorantAgentRecommender',
-    'WeatherApp',
     'Checkers',
+    'WeatherApp',
     'challenge-react',
   ];
 
