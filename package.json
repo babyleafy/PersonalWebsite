@@ -5,7 +5,7 @@
   "author": {
     "name": "Erik Wei",
     "url": "https://erikwei.com",
-    "email": "erikwei@seas.upenn.edu"
+    "email": "erikwei@alumni.upenn.edu"
   },
   "scripts": {
     "dev": "next dev",
